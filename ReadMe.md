@@ -6,6 +6,10 @@ This is a codebase for a private GPT model. It includes various functionalities 
 
 To get started with this project, clone the repository and install the necessary dependencies.
 
+## Inspiration and Implementation
+
+This project is inspired by the [Private GPT project](https://github.com/zylon-ai/private-gpt) by Zylon AI. While the original project is implemented using the LlamaIndex framework, our implementation is based on the LangChain framework. We appreciate the work done by the Zylon AI team and aim to build upon it in our own unique way.
+
 ## Structure
 
 The codebase is structured as follows:
