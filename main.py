@@ -7,7 +7,7 @@ import os
 
 
 sentry_sdk.init(
-    dsn="http://bd61ce417129453a86e91b3d8f2ee726@a45df0a7f9270430bb064aa3303cdf03-1322041227.ap-south-1.elb.amazonaws.com/1",
+    dsn="your_dns_link",
     traces_sample_rate=1.0,
 )
 
