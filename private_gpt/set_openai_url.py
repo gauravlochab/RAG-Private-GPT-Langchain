@@ -32,7 +32,7 @@ async def set_url(item: URLItem):
         os.environ["SCALEGEN_BASE_URL"] = item.url
 
         # Return a success message
-        return {"message": "Openai Base URL set successfully"}
+        return {"message": "Openai Base URL successfully"}
     except Exception as e:
         # Raise an HTTPException if there is an error setting the base URL
         raise HTTPException(status_code=500, detail=str(e))
