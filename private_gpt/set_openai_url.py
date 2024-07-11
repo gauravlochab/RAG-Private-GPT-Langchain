@@ -29,7 +29,7 @@ async def set_url(item: URLItem):
     """
     try:
         # Set the OpenAI base URL environment variable
-        os.environ["SCALEGEN_BASE_URL"] = item.url
+        os.environ["LLama_BASE_URL"] = item.url
 
         # Return a success message
         return {"message": "Openai Base URL successfully"}
