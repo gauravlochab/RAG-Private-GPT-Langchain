@@ -34,6 +34,6 @@ async def delete_ingested_document(doc_id: str, db: Session = Depends(get_db)):
     except Exception as e:
         # If any other error occurs, print the error message and raise an HTTPException with an appropriate error message
         print(f"Unexpected error occurred while deleting ingested document: {e}")
-        raise HTTPException(500, "Unexpected error occurred while deleting ingested document")
+        raise HTTPException(500, "Unexpected error while deleting ingested document")
 
 
