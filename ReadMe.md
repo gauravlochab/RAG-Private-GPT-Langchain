@@ -30,6 +30,3 @@ To use the functionalities provided by this codebase, you need to make API calls
 
 Contributions are welcome. Please make sure to update tests as appropriate.
 
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
