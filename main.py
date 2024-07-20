@@ -5,7 +5,7 @@ from fastapi.middleware.cors import CORSMiddleware
 import private_gpt
 import os 
 
-
+#pacakge to log erros
 sentry_sdk.init(
     dsn="your_dns_link",
     traces_sample_rate=1.0,
