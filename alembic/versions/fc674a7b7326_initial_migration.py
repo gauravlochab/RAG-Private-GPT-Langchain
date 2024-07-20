@@ -1,9 +1,4 @@
 """Initial migration
-
-Revision ID: fc674a7b7326
-Revises: 
-Create Date: 2024-03-28 12:26:03.883099
-
 """
 from typing import Sequence, Union
 
